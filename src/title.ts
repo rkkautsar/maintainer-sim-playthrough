@@ -1,1 +1,1 @@
-export function normalizeTitle(title: string): string { return title; }
+export function normalizeTitle(title: string): string { return title.trim(); }
